@@ -9,6 +9,7 @@ function Homepage() {
                <div className='text-center md:left-[10%] max-w-[1100px] m-auto p-4'>
                 <h1>Nike. Just Do It</h1>
                <p className='font-semibold'>Empower Your Journey with <strong className='text-blue-400 text-3xl'>Nike </strong>. Just Do It</p>
+               <button className='bg-black text-white border-black hover:shadow-xl'>Get Started</button>
                </div>
             </div>
       
