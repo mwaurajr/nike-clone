@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 import { RxDotFilled } from 'react-icons/rx';
 
@@ -50,6 +50,15 @@ function Shoesdisplay() {
     const goToSlide = (shoesIndex) => {
       setCurrentIndex(shoesIndex);
     };
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+          const isLastSlide = currentIndex === shoes.length - 1;
+          const newIndex = isLastSlide ? 0 : currentIndex + 1;
+          setCurrentIndex(newIndex);
+        }, 5000);
+        return () => clearInterval(interval);
+      }, [currentIndex, shoes.length]);
   
     return (
       <div className='max-w-[1400px] h-[680px] w-full m-auto py-16 px-4 relative group'>
