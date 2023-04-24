@@ -17,11 +17,11 @@ function Shoesdisplay() {
             title : 'Athletic',
         },
         {
-            url : 'https://images.pexels.com/photos/2048548/pexels-photo-2048548.jpeg?auto=compress&cs=tinysrgb&w=600',
+            url : 'https://images.pexels.com/photos/5710081/pexels-photo-5710081.jpeg?auto=compress&cs=tinysrgb&w=600 ',
             title : 'Semi customized AF1',
         },
         {
-            url : 'https://images.pexels.com/photos/1476209/pexels-photo-1476209.jpeg?auto=compress&cs=tinysrgb&w=600',
+            url : 'https://images.pexels.com/photos/3261068/pexels-photo-3261068.jpeg?auto=compress&cs=tinysrgb&w=600',
             title : 'Horse',
         },
         {
@@ -32,6 +32,18 @@ function Shoesdisplay() {
             url : 'https://images.pexels.com/photos/10726876/pexels-photo-10726876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
             title : 'Plain AF1',
         },
+        {
+          url : 'https://media.istockphoto.com/id/1303978937/photo/white-sneaker-on-a-blue-gradient-background-mens-fashion-sport-shoe-sneakers-lifestyle.jpg?b=1&s=612x612&w=0&k=20&c=cNLaucibZy5Vq4r7dOCt9CNam6lejW3Zxw0Vho_z0mo=',
+          title : 'Plain AF1',
+      },
+      {
+        url : 'https://images.pexels.com/photos/6050919/pexels-photo-6050919.jpeg?auto=compress&cs=tinysrgb&w=600',
+        title : 'Plain AF1',
+    },
+    {
+      url : 'https://images.pexels.com/photos/1464625/pexels-photo-1464625.jpeg?auto=compress&cs=tinysrgb&w=600',
+      title : 'Plain AF1',
+  },
     ]
     const [currentIndex, setCurrentIndex] = useState(0);
 
